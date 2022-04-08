@@ -19,7 +19,8 @@ menu li
 {display: inline;
 text-align: center;}
 
-menu li a {color: white;}
+menu li a {color: rosybrown;
+padding: 1.5rem;}
 
 a {text-decoration: none;}
 
