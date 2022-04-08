@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" href="fotos/semilogo.png" type="image/x-icon">
+    <title>Deixe seu comentário!</title>
+</head>
+<body>
+    <h1>MaluBeauty</h1>
+    <hr>
+    <nav>
+        <menu>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="serviços.html">Serviços</a></li>
+            <li><a href="contato.html">Agendamentos</a></li>
+            <li><a href="novidades.html">Novidades</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </menu>
+</nav>
+        <section>
+            <h2>Formulário de contato</h2>
+        <form name="contato" method="post" data-netlify="true">
+            <label for="NomeContato">Nome: </label>
+            <input type="text" name="NomeContato" id="NomeContato" required /> 
+        <br/>
+            <label for="EmailContato">Email: </label>
+            <input
+            type="email"
+            name="EmailContato"
+            id="EmailContato" required />
+            <br>
+            <label for="AssuntoContato">Assunto: </label>
+            <textarea name="AssuntoContato" id="AssuntoContato" cols="30" rows="10">Ajude-nos a melhorar!</textarea>
+        </br>
+            <input type="submit" value="Enviar"/>
+        </form>
+        </section>
+    
+</body>
+</html>

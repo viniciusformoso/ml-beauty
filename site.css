@@ -1,0 +1,32 @@
+:root{background-color: burlywood;}
+
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+color: black;}
+
+body {font-size: 1.1rem;}
+
+menu {background-color: black;
+margin: auto;
+text-align: center;
+display: block;
+border-radius: 100px;
+width: 80%;
+padding-inline-start: 0px;}
+
+menu li
+{display: inline;
+/* font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+text-decoration: none; */}
+
+
+img {margin: auto;
+width: auto;
+display: inline-block;}
+
+section {text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.imagemprincipal {display: block;}
+.fotosdeservico {text-align: center;}
