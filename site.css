@@ -4,6 +4,10 @@ h1
 {text-align: center;
 color: black;}
 
+ul {display: flex;
+flex-direction: row;}
+
+
 menu {background-color: black;
 margin: auto;
 text-align: center;
@@ -24,6 +28,8 @@ padding: 1.5rem;}
 
 a {text-decoration: none;}
 
+a:hover {color: gold;}
+
 img {margin: auto;
 width: auto;
 display: inline-block;}
@@ -32,3 +38,12 @@ section {text-align: center;}
 
 .imagemprincipal {display: block;}
 .fotosdeservico {text-align: center;}
+.linkcontato {text-align: center;
+            align-items: center;
+            border-radius: 100px;
+            background-color: black;
+            margin: auto;
+            padding: 2rem;
+            display: block;
+            width: auto;
+            font-size: larger;}
